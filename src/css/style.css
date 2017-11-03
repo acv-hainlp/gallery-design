@@ -1,0 +1,62 @@
+@media (min-width: 576px) {
+  .card-columns {
+    column-count: 5;
+    column-gap: 1.25rem; } }
+
+@media (max-width: 1200px) {
+  .card-columns {
+    column-count: 4;
+    column-gap: 1.25rem; } }
+
+@media (max-width: 886px) {
+  .card-columns {
+    column-count: 3;
+    column-gap: 1.25rem; } }
+
+@media (max-width: 666px) {
+  .card-columns {
+    column-count: 2;
+    column-gap: 1.25rem; } }
+
+@media (max-width: 414px) {
+  .card-columns {
+    column-count: 1;
+    column-gap: 1.25rem; } }
+
+a {
+  color: black; }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: regular;
+  background-color: #f9f9f9; }
+
+.bg-dark {
+  background-color: black !important; }
+
+.btn {
+  border-radius: 2rem;
+  line-height: .9rem;
+  font-weight: 600;
+  font-size: .9rem;
+  padding-left: 1rem;
+  padding-right: 1rem; }
+
+p {
+  font-size: .7rem; }
+
+nav .nav-item {
+  margin-right: 1rem;
+  font-weight: 600;
+  font-size: .9rem; }
+
+section#post-list .card-title {
+  font-size: .8rem;
+  font-weight: bold; }
+
+section#post-list .card-body {
+  padding: .7rem; }
+
+section#post-list .card-footer {
+  background-color: white;
+  padding: .7rem; }
