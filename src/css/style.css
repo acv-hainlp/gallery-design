@@ -50,13 +50,16 @@ nav .nav-item {
   font-weight: 600;
   font-size: .9rem; }
 
-section#post-list .card-title {
-  font-size: .8rem;
-  font-weight: bold; }
-
 section#post-list .card-body {
-  padding: .7rem; }
+  padding: .7rem;
+  line-height: 1.2rem; }
+  section#post-list .card-body .card-title {
+    font-size: .8rem;
+    font-weight: bold; }
 
 section#post-list .card-footer {
   background-color: white;
   padding: .7rem; }
+
+section#post-list .card-text {
+  font-size: .8rem; }

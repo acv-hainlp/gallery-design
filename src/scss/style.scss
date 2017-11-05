@@ -70,17 +70,23 @@ nav {
 }
 
 section#post-list {
-    .card-title {
-        font-size: .8rem;
-        font-weight: bold;
-    }
 
     .card-body {
         padding: .7rem;
+        line-height: 1.2rem;
+
+        .card-title {
+            font-size: .8rem;
+            font-weight: bold;
+        }
     }
 
     .card-footer {
         background-color: white;
         padding: .7rem;
+    }
+
+    .card-text {
+        font-size: .8rem;
     }
 }
