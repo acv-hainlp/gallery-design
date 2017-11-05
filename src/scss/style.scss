@@ -38,6 +38,14 @@ nav {
 
 section#post-list {
 
+    .card {
+        border-radius: 0;
+    }
+
+    .card-img-top {
+        border-radius: 0;
+    }
+
     .card-body {
         padding: .7rem;
         line-height: 1.2rem;
@@ -139,6 +147,9 @@ section#user-profile {
     .card {
         border-radius: 0;
 
+        .card-title {
+            margin-bottom: .5rem;
+        }
         
         .card-img-top {
             border-radius: 0;

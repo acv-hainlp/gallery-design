@@ -25,6 +25,12 @@ nav .nav-item {
   font-weight: 600;
   font-size: .9rem; }
 
+section#post-list .card {
+  border-radius: 0; }
+
+section#post-list .card-img-top {
+  border-radius: 0; }
+
 section#post-list .card-body {
   padding: .7rem;
   line-height: 1.2rem; }
@@ -96,6 +102,8 @@ section#post-list .card-text {
 
 section#user-profile .card {
   border-radius: 0; }
+  section#user-profile .card .card-title {
+    margin-bottom: .5rem; }
   section#user-profile .card .card-img-top {
     border-radius: 0; }
   section#user-profile .card .card-body {
