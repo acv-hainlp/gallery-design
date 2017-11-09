@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&amp;subset=vietnamese" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Gallery</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <a class="navbar-brand d-lg-none" href="#">Logo</a>
+
+        <div class="collapse navbar-collapse justify-content-between" id="navbarTogglerDemo03">
+            <a class="navbar-brand d-lg-block d-md-none" href="#">Logo</a>
+            <ul class="navbar-nav">
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html">Discover
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="profile.html">Profile</a>
+                </li>
+                <li class="nav-item mt-lg-1">
+                    <a class="btn btn-primary" href="#">Create Project</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">
+                        <i class="fa fa-search"></i>
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">
+                        <i class="fa fa-user"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="user-profile-edit" class="py-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="img-fluid" src="https://scontent.fhan2-1.fna.fbcdn.net/v/t1.0-9/22196108_1730255733651471_8735358412861659975_n.jpg?oh=50c8f56d1b1790c5b21c957498fea5e9&oe=5A70C67C" alt="">
+                    <div class="form-group">
+                            <label for="avatarUpload">Change your avatar</label>
+                            <input type="file" class="form-control-file" id="avatarUpload">
+                        </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="row card">
+                        <div class="card-header">
+                            Basic Information
+                        </div>
+                        <div class="card-body">
+                            <form>
+                                <div class="form-group">
+                                    <label for="username">Username</label>
+                                    <input type="text" class="form-control" id="username" placeholder="Enter username">
+                                </div>
+                                <div class="form-group">
+                                    <label for="birthday">Birthday</label>
+                                    <input type="date" class="form-control" id="Enter you Birthday">
+                                </div>
+                                <div class="form-group">
+                                        <label for="job">Job</label>
+                                        <input type="text" class="form-control" id="job" placeholder="Enter your job">
+                                </div>
+                                <div class="form-group">
+                                        <label for="job">Software</label>
+                                        <input type="text" class="form-control" id="software" placeholder="Enter your software">
+                                </div>
+                                <button type="submit" class="btn btn-primary float-right">Save</button>
+                                <button type="reset" class="btn btn-secondary float-right mr-2">Reset</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
