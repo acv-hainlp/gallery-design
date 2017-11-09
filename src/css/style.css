@@ -130,5 +130,8 @@ section#user-profile .card-columns .card-footer {
 section#user-profile .card-columns .card-text {
   font-size: .8rem; }
 
+section#user-profile-edit nav .w-100 {
+  margin-top: 3.5rem; }
+
 section#user-profile-edit .card-body {
   background-color: white; }

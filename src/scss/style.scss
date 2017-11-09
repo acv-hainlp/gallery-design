@@ -194,6 +194,11 @@ section#user-profile {
 }
 
 section#user-profile-edit {
+    nav {
+        .w-100 {
+            margin-top: 3.5rem;
+        }
+    }
     .card-body {
         background-color: white;
     }
