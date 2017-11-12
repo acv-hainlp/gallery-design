@@ -6,6 +6,15 @@ body {
   font-weight: regular;
   background-color: #f9f9f9; }
 
+p {
+  font-size: .8rem; }
+
+h6 {
+  font-size: .9rem; }
+
+h5 {
+  font-size: 1rem; }
+
 .bg-dark {
   background-color: black !important; }
 
@@ -16,9 +25,6 @@ body {
   font-size: .9rem;
   padding-left: 1rem;
   padding-right: 1rem; }
-
-p {
-  font-size: .8rem; }
 
 nav .nav-item {
   margin-right: 1rem;
@@ -135,3 +141,7 @@ section#user-profile-edit nav .w-100 {
 
 section#user-profile-edit .card-body {
   background-color: white; }
+
+section#post-details .card {
+  border: 0;
+  border-radius: 0; }

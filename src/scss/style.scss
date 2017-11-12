@@ -11,6 +11,19 @@ body {
     background-color: rgb(249, 249, 249);
 }
 
+p {
+    font-size: .8rem;
+}
+
+
+h6 {
+    font-size: .9rem;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
 .bg-dark {
     background-color: black !important;
 }
@@ -24,9 +37,6 @@ body {
     padding-right: 1rem;
 }
 
-p {
-    font-size: .8rem;
-}
 
 nav {
     .nav-item {
@@ -201,5 +211,12 @@ section#user-profile-edit {
     }
     .card-body {
         background-color: white;
+    }
+}
+
+section#post-details {
+    .card {
+        border: 0;
+        border-radius: 0;
     }
 }
